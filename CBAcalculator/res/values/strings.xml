@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CBAcalculatorActivity!</string>
+    <string name="app_name">CBA Calculator</string>
+    <string name="introText">Computed Buffer Adjustment is calculated for 18-hole competitions and only players in handicap categories 1 – 4 will be taken into account. Hit the button to start.</string>
+    <string name="introTextColor">#000000</string>
+    <string name="PlayerscoreEntry">Enter the score and exact handicap of a player. Use the next button to enter another player. Press finish to calculate the CBA score</string>
+</resources>

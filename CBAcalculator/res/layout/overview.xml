@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1"
+  android:background="#1A4D21">
+    <!-- Preview: listitem=@android:layout/simple_list_item_2 -->
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="308dp"
+        android:cacheColorHint="#00000000"
+        android:footerDividersEnabled="true" >
+
+    </ListView>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:background="#7f7f7f"
+        android:fadingEdge="vertical" >
+</View>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:padding="10px">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:text="Calculated CBA: "
+            android:textAppearance="?android:attr/textAppearanceLarge" >
+</TextView>
+
+        <TextView
+            android:id="@+id/textCBA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:text="TextView"
+            android:textAppearance="?android:attr/textAppearanceLarge" >
+</TextView>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:background="#7f7f7f"
+        android:fadingEdge="vertical" >
+</View>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15px"
+        android:inputType="none"
+        android:onClick="overviewOkClicked"
+        android:text="Ok" >
+
+</Button>
+    
+</LinearLayout>
